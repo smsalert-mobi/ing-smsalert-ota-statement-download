@@ -1,0 +1,17 @@
+{
+  "name": "ing-extrase",
+  "version": "1.0.0",
+  "description": "This script is just an example (POC) on how to download monthly statement from ING Business by using Puppeteer and SMSAlert for automatically reading OTA SMS.",
+  "main": "import-extras.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xelandru Software SRL",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "puppeteer": "^21.7.0",
+    "readline": "^1.3.0",
+    "retry": "^0.13.1"
+  }
+}
