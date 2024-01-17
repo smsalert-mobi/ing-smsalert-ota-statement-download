@@ -19,4 +19,14 @@ This script emulates users actions using [Puppeteer](https://pptr.dev/)
 
 ### Install
 npm install
+
+define your credentials in import-extras.js
+```
+const ING_USERNAME = '';
+const ING_PASSWORD = '';
+
+const SMSALERT_API_USERNAME = ''
+const SMSALERT_API_KEY = ''
+```
 node import-extras.js
+
